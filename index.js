@@ -7,7 +7,7 @@ const
   prompt = require("prompt-sync")({ sigint: true }),
   dotenv = require('dotenv'),
   { Client } = require('discord.js-selfbot-v11'),
-  client = new Client(),
+  client = new Client(1078925277930983434),
 
   statuses = new Map([
     [1, ["playing", chalk.yellowBright.bold]],
